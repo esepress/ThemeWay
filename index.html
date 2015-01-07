@@ -15,7 +15,9 @@
 
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/custom.css">
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+		<!-- Google font -->
+		<link href='http://fonts.googleapis.com/css?family=Bad+Script|Lobster|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+		<!-- Font Awesome -->
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	</head>
 
@@ -59,23 +61,51 @@
             </div><!-- container -->
         </div><!-- menu -->
 
-		<div class= "starting-img">
-			<img src="img/main.jpg" alt="" class= "img-responsive">
-		</div>
+		<!-- <div class= "starting-img"> -->
+		<div class="bg-color">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+ 			
+ 				<div class="carousel-inner">
+				 
+				  <div class="item active"> <img src="img/main.jpg" style="width:100%" data-src="" alt="Second slide">
+				    <div class="container">
+				      <div class="carousel-caption">
+				        <h2>
+				        Creative Solution
+				        </h1>
+				        <p class="sub-text">What Ever The <span>Problem</span> We Are With You</p>
+				      </div>
+				    </div>
+				  </div>
+				  <div class="item"> <img src="img/slider2.jpg" style="width:100%" data-src="" alt="Third slide">
+				    <div class="container">
+				      <div class="carousel-caption">
+				        <h2>
+				        Best Solution
+				        </h1>
+				        <p class="sub-text">What Ever The <span>Problem</span> We Are With You</p>
+				      </div>
+				    </div>
+				  </div>
+				</div>
 
-		<div class="container">
-			<div class="row  text-center">
-				<span class= "tagline-inner">We are ThemeWay,</span>
-				<span class= "words">your creative solutions agency.</span>
-			</div><!-- /.tagline -->
-			<div class="row text-center home-desc active">
-				<span style= "font-size: 18px;">
-					We are an award winning creative agency who love producing original design solutions for our clients around the globe.
-					<br />
-					By combining strategic thinking, cutting edge design and technical development we deliver effective results.
-					<br />
-					<a title="About Us" href="http://greenchameleondesign.com/about/">Find out why you should choose us for your next project.</a>
-				</span>
+			 </div>
+		</div>
+		<div class="info-box"> 
+			<div class="container">
+				<div class="row  text-center">
+					<span class= "tagline-inner">We are ThemeWay, Your Creative Solutions Agency.</span>
+					<span class= "words"></span>
+				</div><!-- /.tagline -->
+				<div class="row text-center home-desc active">
+					<span style= "font-size: 18px;">
+						We are an award winning creative agency who love producing original design solutions for our clients around the globe.
+						<br />
+						By combining strategic thinking, cutting edge design and technical development we deliver effective results.
+						<br />
+						<a title="About Us" href="http://themewagon.com/about/">Find out why you should choose us for your next project.</a>
+					</span>
+				</div>
 			</div>
 		</div>
 
@@ -85,16 +115,16 @@
 					<h3>areas of</h3>
 					<h2>Expertise</h2>
 
-					<div class="services-wrapper">
-						<div class="col-md-3 service-graphic">
+					<div class="services-wrapper clearfix">
+						<div class="col-sm-4 service-graphic">
 							<div class="service-badge">
 								<div class="badge-spikes"></div>
 								<div class="badge-text"></div>
 								<div class="badge-stamp"></div>
 							</div><!-- /.service-badge.badge-graphic -->
 
-							<div class="service-info-wrapper">
-								<div class="service-info">
+							<div class="service-info-wrappers">
+								<div class="service-infos">
 									<div class="service-title">Graphic Design</div>
 									<div class="services-list">
 										<div class="service-item">Brand Identity</div>
@@ -102,22 +132,20 @@
 										<div class="service-item">Illustration</div>
 										<div class="service-item">Digital Artwork</div>
 										<div class="service-item">Literature</div>
-										<div class="service-item">Packaging Design</div>
-										<div class="service-item">Point of Sale</div>
 									</div>
 								</div><!-- /.service-info -->
 							</div><!-- /.service-info-wrapper -->
 						</div><!-- /.col-md-3 -->
 
-						<div class="col-md-3 service-website">
+						<div class="col-sm-4 service-website">
 							<div class="service-badge badge-website">
 								<div class="badge-spikes"></div>
 								<div class="badge-text"></div>
 								<div class="badge-stamp"></div>
 							</div><!-- /.service-badge.badge-graphic -->
 
-							<div class="service-info-wrapper">
-								<div class="service-info">
+							<div class="service-info-wrappers">
+								<div class="service-infos">
 									<div class="service-title">Website Design</div>
 									<div class="services-list">
 										<div class="service-item">Front End Design</div>
@@ -125,66 +153,39 @@
 										<div class="service-item">One Page Sites</div>
 										<div class="service-item">E-commerce Sites</div>
 										<div class="service-item">CMS</div>
-										<div class="service-item">Responsive Sites</div>
-										<div class="service-item">App Design</div>
-										<div class="service-item">Facebook Apps</div>
-										<div class="service-item">Bespoke Systems</div>
 									</div>
 								</div><!-- /.service-info -->
 							</div><!-- /.service-info-wrapper -->
 						</div><!-- /.col-md-3 -->
 
-						<div class="col-md-3 service-product">
+						<div class="col-sm-4 service-product">
 							<div class="service-badge badge-product">
 								<div class="badge-spikes"></div>
 								<div class="badge-text"></div>
 								<div class="badge-stamp"></div>
 							</div><!-- /.service-badge.badge-graphic -->
 
-							<div class="service-info-wrapper">
-								<div class="service-info">
+							<div class="service-info-wrappers">
+								<div class="service-infos">
 									<div class="service-title">Product Design</div>
 									<div class="services-list">
 										<div class="service-item">Concept Generation</div>
 										<div class="service-item">Technical Drawings</div>
 										<div class="service-item">Prototyping</div>
-										<div class="service-item">Manufacturability</div>
+										<div class="service-item">Manufacture</div>
 										<div class="service-item">Product CGI</div>
-										<div class="service-item">Product Rejuvenation</div>
 									</div>
 								</div><!-- /.service-info -->
 							</div><!-- /.service-info-wrapper -->
 						</div><!-- /.col-md-3 -->
 
-						<div class="col-md-3 service-marketing">
-							<div class="service-badge">
-								<div class="badge-spikes"></div>
-								<div class="badge-text"></div>
-								<div class="badge-stamp"></div>
-							</div><!-- /.service-badge.badge-graphic -->
-
-							<div class="service-info-wrapper">
-								<div class="service-info">
-									<div class="service-title">Marketing</div>
-									<div class="services-list">
-										<div class="service-item">Strategy</div>
-										<div class="service-item">Social Media</div>
-										<div class="service-item">Email Campaigns</div>
-										<div class="service-item">SEO</div>
-										<div class="service-item">PPC</div>
-										<div class="service-item">Campaigns</div>
-										<div class="service-item">Events</div>
-										<div class="service-item">Video</div>
-									</div>
-								</div><!-- /.service-info -->
-							</div><!-- /.service-info-wrapper -->
-						</div><!-- /.col-md-3 -->
+						
 					</div><!-- /.services-wrapper -->
 				</div>
 
 				<div class= "row text-center">
 					<div class="services-tagline">Interested in getting your project started with us?</div>
-					<a href="http://www.greenchameleondesign.com/contact/" class="button big-blue" title="Project Request Form">Project Request Form</a>
+					<a href="http://localhost/ThemeWay/contact.html" class="button big-blue" title="Project Request Form">Project Request Form</a>
 				</div>
 			</div>
 		</div>
@@ -207,154 +208,154 @@
 				<div class= "row">
 					<div class="isotope" id= "port-items">
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-products cat-websites" data-category="cat-websites">
-						    <img class= "img-responsive" src="img/port1.png" alt="Riley&#039;s Cycles Web Design" />
+						    <img class= "img-responsive" src="img/1.jpg" alt="Riley&#039;s Cycles Web Design" />
 							<div class="item-desc">
 								<div class="item-title">Riley Cycle&#8217;s</div>
 								<div class="item-tags">branding, Responsive, SVG, website</div>
 							</div><!-- /.item-desc -->
 						  </div>
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-websites cat-graphics cat-marketing" data-category="cat-graphics">
-						    <img class= "img-responsive" src="img/port2.png" alt="Dino Zamparelli" />
+						    <img class= "img-responsive" src="img/2.jpg" alt="Dino Zamparelli" />
 							<div class="item-desc">
 								<div class="item-title">Dino Zamparelli</div>
 								<div class="item-tags"></div>
 							</div><!-- /.item-desc -->
 						  </div>
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-websites " data-category="cat-websites">
-						    <img class= "img-responsive" src="img/port3.png" alt="si1" />
+						    <img class= "img-responsive" src="img/3.jpg" alt="si1" />
 							<div class="item-desc">
 								<div class="item-title">Studio Indigo</div>
 								<div class="item-tags">Full Screen, Responsive, Video</div>
 							</div><!-- /.item-desc -->
 						  </div>
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-websites cat-marketing" data-category="cat-marketing">
-						    <img class= "img-responsive" src="img/port4.png" alt="Beyond Bespoke&#039;s one page responsive microsite" />
+						    <img class= "img-responsive" src="img/4.jpg" alt="Beyond Bespoke&#039;s one page responsive microsite" />
 							<div class="item-desc">
 								<div class="item-title">Beyond Bespoke</div>
 								<div class="item-tags">One page, responsive website, SVG animation</div>
 							</div><!-- /.item-desc -->
 						  </div>
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-websites cat-graphics" data-category="cat-graphics">
-						    <img class= "img-responsive" src="img/port5.jpg" alt="open_colleges_brain_map" />
+						    <img class= "img-responsive" src="img/5.jpg" alt="open_colleges_brain_map" />
 							<div class="item-desc">
 								<div class="item-title">Open College&#8217;s Interactive Brain</div>
 								<div class="item-tags"></div>
 							</div><!-- /.item-desc -->
 						  </div>
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-websites" data-category="cat-websites">
-						    <img class= "img-responsive" src="img/port6.jpg" alt="Lifefitness at Sochi 2014 a" />
+						    <img class= "img-responsive" src="img/6.jpg" alt="Lifefitness at Sochi 2014 a" />
 							<div class="item-desc">
 								<div class="item-title">Life Fitness at Sochi 2014</div>
 								<div class="item-tags"></div>
 							</div><!-- /.item-desc -->
 						  </div>
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-websites cat-graphics" data-category="cat-graphics">
-						    <img class= "img-responsive" src="img/port7.jpg" alt="featured" />
+						    <img class= "img-responsive" src="img/7.jpg" alt="featured" />
 							<div class="item-desc">
 								<div class="item-title">The Girl With The Blueprint</div>
 								<div class="item-tags">branding, web-system, website</div>
 							</div><!-- /.item-desc -->
 						  </div>
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-websites" data-category="cat-websites">
-						    <img class= "img-responsive" src="img/port8.jpg" alt="gg-featured" />
+						    <img class= "img-responsive" src="img/8.jpg" alt="gg-featured" />
 							<div class="item-desc">
 								<div class="item-title">Greengage</div>
 								<div class="item-tags">videography, website</div>
 							</div><!-- /.item-desc -->
 						  </div>
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-websites cat-graphics" data-category="cat-graphics">
-						    <img class= "img-responsive" src="img/port9.jpg" alt="featured" />
+						    <img class= "img-responsive" src="img/9.jpg" alt="featured" />
 							<div class="item-desc">
 								<div class="item-title">Future Bristol</div>
 								<div class="item-tags">branding, infographic, website</div>
 							</div><!-- /.item-desc -->
 						  </div>
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-websites" data-category="cat-websites">
-						    <img class= "img-responsive" src="img/port10.jpg" alt="thumb" />
+						    <img class= "img-responsive" src="img/10.jpg" alt="thumb" />
 							<div class="item-desc">
 								<div class="item-title">Cultural Activism</div>
 								<div class="item-tags">responsive website</div>
 							</div><!-- /.item-desc -->
 						  </div>
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-graphics cat-logo" data-category="cat-graphics">
-						    <img class= "img-responsive" src="img/port11.jpg" alt="Featured" />
+						    <img class= "img-responsive" src="img/11.jpg" alt="Featured" />
 							<div class="item-desc">
 								<div class="item-title">Maia Practice</div>
 								<div class="item-tags">branding</div>
 							</div><!-- /.item-desc -->
 						  </div>
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-websites" data-category="cat-websites">
-						    <img class= "img-responsive" src="img/port12.jpg" alt="thumb" />
+						    <img class= "img-responsive" src="img/12.jpg" alt="thumb" />
 							<div class="item-desc">
 								<div class="item-title">Bristol Green Capital</div>
 								<div class="item-tags">digital artwork, homepage redesign, illustration</div>
 							</div><!-- /.item-desc -->
 						  </div>
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-graphics cat-logo" data-category="cat-graphics">
-						    <img class= "img-responsive" src="img/port13.jpg" alt="featured" />
+						    <img class= "img-responsive" src="img/1.jpg" alt="featured" />
 							<div class="item-desc">
 								<div class="item-title">Tut Tut Child</div>
 								<div class="item-tags">branding</div>
 							</div><!-- /.item-desc -->
 						  </div>
-						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-graphics cat-products" data-category="cat-products">
-						    <img class= "img-responsive" src="img/port14.jpg" alt="featured-2" />
+						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-graphics" data-category="cat-graphics">
+						    <img class= "img-responsive" src="img/4.jpg" alt="featured-2" />
 							<div class="item-desc">
 								<div class="item-title">Automotive Visualisations</div>
 								<div class="item-tags">digital modelling, rendering</div>
 							</div><!-- /.item-desc -->
 						  </div>
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-graphics cat-logo" data-category="cat-graphics">
-						    <img class= "img-responsive" src="img/port15.jpg" alt="featured" />
+						    <img class= "img-responsive" src="img/5.jpg" alt="featured" />
 							<div class="item-desc">
 								<div class="item-title">Simon Beatson</div>
 								<div class="item-tags">branding</div>
 							</div><!-- /.item-desc -->
 						  </div>
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-websites cat-graphics cat-marketing" data-category="cat-marketing">
-						    <img class= "img-responsive" src="img/port16.jpg" alt="featured" />
+						    <img class= "img-responsive" src="img/6.jpg" alt="featured" />
 							<div class="item-desc">
 								<div class="item-title">The Phone Case Shop</div>
 								<div class="item-tags">branding, e-commerce website, packaging, print</div>
 							</div><!-- /.item-desc -->
 						  </div>
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-websites cat-marketing" data-category="cat-marketing">
-						    <img class= "img-responsive" src="img/port17.jpg" alt="featured-2" />
+						    <img class= "img-responsive" src="img/7.jpg" alt="featured-2" />
 							<div class="item-desc">
 								<div class="item-title">The Downs School</div>
 								<div class="item-tags">marketing, mobile site, social media, website</div>
 							</div><!-- /.item-desc -->
 						  </div>
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-graphics cat-logo" data-category="cat-graphics">
-						    <img class= "img-responsive" src="img/port18.jpg" alt="featured" />
+						    <img class= "img-responsive" src="img/8.jpg" alt="featured" />
 							<div class="item-desc">
 								<div class="item-title">The Cellarhand</div>
 								<div class="item-tags">branding, business cards, t shirt, website</div>
 							</div><!-- /.item-desc -->
 						  </div>
 							<div class="col-md-4 col-sm-6 col-xs-12 element-item cat-products" data-category="cat-products">
-							    <img class= "img-responsive" src="img/port19.jpg" alt="featured" />
+							    <img class= "img-responsive" src="img/9.jpg" alt="featured" />
 								<div class="item-desc">
 									<div class="item-title">New Thinking</div>
 									<div class="item-tags">digital modelling, product design, rendering</div>
 								</div><!-- /.item-desc -->
 						  </div>
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-products" data-category="cat-products">
-						    <img class= "img-responsive" src="img/port20.jpg" alt="Confidential-Featured-Image" />
+						    <img class= "img-responsive" src="img/10.jpg" alt="Confidential-Featured-Image" />
 							<div class="item-desc">
 								<div class="item-title">Confidential Projects</div>
 								<div class="item-tags">click to request access</div>
 							</div><!-- /.item-desc -->
 						  </div>
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-websites cat-marketing" data-category="cat-marketing">
-						    <img class= "img-responsive" src="img/port21.jpg" alt="featured" />
+						    <img class= "img-responsive" src="img/1.jpg" alt="featured" />
 							<div class="item-desc">
 								<div class="item-title">Angel Storage</div>
 								<div class="item-tags">business cards, custom booking system, marketing</div>
 							</div><!-- /.item-desc -->
 						  </div>
 						  <div class="col-md-4 col-sm-6 col-xs-12 element-item cat-marketing" data-category="cat-marketing">
-						    <img class= "img-responsive" src="img/port22.jpg" alt="we-back-the-bid" />
+						    <img class= "img-responsive" src="img/12.jpg" alt="we-back-the-bid" />
 							<div class="item-desc">
 								<div class="item-title">Rollo&#8217;s Ride</div>
 								<div class="item-tags">campaign, marketing, social media</div>
@@ -367,34 +368,36 @@
 		</div>
 
 
-		<div class= "container">
-			<div class= "row">
-				<div class= "heading text-center">
-					Trusted By
-				</div>
-			</div>
-		</div>
-		<div class= "container">
-			<div class= "row">
-				<div class= "col-md-8 col-md-offset-2">
-					<div id="partners">
-						<div class="partner-item"><img src="img/Google.png" style= "height: 100px;" alt="Owl Image"></div>
-						<div class="partner-item"><img src="img/intel.png" style= "height: 100px;" alt="Owl Image"></div>
-						<div class="partner-item"><img src="img/microsoftlogo.png" style= "height: 100px;" alt="Owl Image"></div>
-						<div class="partner-item"><img src="img/sas.png" style= "height: 100px;" alt="Owl Image"></div>
-						<div class="partner-item"><img src="img/netapp.png" style= "height: 100px;" alt="Owl Image"></div>
-						<div class="partner-item"><img src="img/wordpress.png" style= "height: 100px;" alt="Owl Image"></div>
+		<div id="brands">
+			<div class= "container">
+				<div class= "row">
+					<div class= "heading text-center">
+						Trusted By
 					</div>
 				</div>
 			</div>
-		</div>
-		
-		<div class= "container">
-			<div class= "row">
-				<div class= "col-md-8 col-md-offset-2 twitt-wrapper">
-					<div class= "twitt text-center">
-						Mock up of a branding &amp; identity project we are working on 
-						<a href="#">http://t.co/cRSkBXFflV</a>
+			<div class= "container">
+				<div class= "row">
+					<div class= "col-md-8 col-md-offset-2">
+						<div id="partners">
+							<div class="partner-item"><img src="img/Google.png" style= "height: 100px;" alt="Owl Image"></div>
+							<div class="partner-item"><img src="img/intel.png" style= "height: 100px;" alt="Owl Image"></div>
+							<div class="partner-item"><img src="img/microsoftlogo.png" style= "height: 100px;" alt="Owl Image"></div>
+							<div class="partner-item"><img src="img/sas.png" style= "height: 100px;" alt="Owl Image"></div>
+							<div class="partner-item"><img src="img/netapp.png" style= "height: 100px;" alt="Owl Image"></div>
+							<div class="partner-item"><img src="img/wordpress.png" style= "height: 100px;" alt="Owl Image"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class= "container">
+				<div class= "row">
+					<div class= "col-md-8 col-md-offset-2 twitt-wrapper">
+						<div class= "twitt text-center">
+							Mock up of a branding &amp; identity project we are working on 
+							<a href="#">http://t.co/cRSkBXFflV</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -440,9 +443,9 @@
 							<i class="fa fa-mobile"></i>0117 963 9613
 						</div>
 						<div class= "row">
-							<i class="fa fa-building"></i>
-							Windsor House<br />
-							Greville Rd, Bristol, BS3 1LL
+							<div class="col-xs-2" style="padding: 0px;"><i class="fa fa-building"></i></div>
+							<div class="col-xs-9" style="padding: 9px;">Windsor House<br>
+							Greville Rd, Bristol, BS3 1LL</div>
 						</div>
 						<div class= "row">
 							<a class="footer-img map hidden-xs" href="https://www.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Windsor+House+Greville+Rd,+Bristol,+BS3+1LL&aq=&sll=36.247635,-115.238348&sspn=0.478999,1.056747&vpsrc=0&t=h&ie=UTF8&hq=&hnear=Windsor+House+Greville+Rd,+Bristol+BS3+1LL,+United+Kingdom&z=16&iwloc=A&ved=0CBIQpQY&sa=X&ei=H5dlUbTWJsfDwQH43oHgBA" target="_blank" title="Get Directions">
@@ -452,13 +455,29 @@
 					</div>
 					<div class= "col-md-4 col-sm-12">
 						<h4>From the Blog</h4>
-						<div class="footer-blog-content">
-							<a class="footer-blog-link" href="http://www.greenchameleondesign.com/2014/06/hiring/" title="We Are Hiring! Frontend Web Developers.">We Are Hiring! Frontend Web Developers.</a>
-							<div class="footer-blog-author">by Rollo Lewis</div>
-							<div class="footer-img">
-								<img src="http://www.greenchameleondesign.com/wp-content/uploads/2014/06/jobheader-310x130.jpg" class="attachment-footer-blog wp-post-image hidden-xs" alt="jobheader" /></div>
-							<div class="footer-blog-excerpt">Position: Web Developer/Interaction Designer Job Type: Full ...</div>
-							<a href=http://www.greenchameleondesign.com/2014/06/hiring/ class="footer-blog-readmore" title="Read More">Read More</a>
+						<div class="mini-blog">
+							<h4>Demo blog post one</h4>
+							<small>Rubel Bhai</small>
+							<div class="row">
+								<div class="col-xs-5">
+									<img src="http://placehold.it/300x200" alt="blog post" class="img-responsive">
+								</div>
+								<div class="col-xs-7">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ratione commodi, suscipit dolorem delectus optio.</p>
+								</div>
+							</div>
+						</div>
+						<div class="mini-blog">
+							<h4>Demo blog post two</h4>
+							<small>Rubel Bhai</small>
+							<div class="row">
+								<div class="col-xs-5">
+									<img src="http://placehold.it/300x200" alt="blog post" class="img-responsive">
+								</div>
+								<div class="col-xs-7">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ratione commodi, suscipit dolorem delectus optio.</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -492,125 +511,7 @@
 		<script type="text/javascript" src="js/owl.carousel.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-
-		<script>
-
-			$(document).ready(function() 
-			{
- 
-				$("#partners").owlCarousel
-				({
-				 
-				    autoPlay: 3000, //Set AutoPlay to 3 seconds
-				    items : 4,
-				    itemsDesktop : [1199,3],
-				    itemsDesktopSmall : [979,3],
-				    itemsTablet: [600,3],
-				    itemsMobile : [400,2],
-				    autoHeight:	false
-				 
-				});
-				 
-			});
-
-		</script>
-
-		<script>
-			$( function() 
-			{
-				  // init Isotope
-			  	var $container = $('.isotope').isotope
-			  	({
-				    itemSelector: '.element-item',
-				    layoutMode: 'fitRows'
-			  	});
-
-
-  				// bind filter button click
-  				$('#filters').on( 'click', 'button', function() 
-  				{
-				    var filterValue = $( this ).attr('data-filter');
-				    // use filterFn if matches value
-				    $container.isotope({ filter: filterValue });
-				 });
-  
-			  // change is-checked class on buttons
-			  	$('.button-group').each( function( i, buttonGroup ) 
-			  	{
-			    	var $buttonGroup = $( buttonGroup );
-			    	$buttonGroup.on( 'click', 'button', function() 
-			    	{
-			      		$buttonGroup.find('.is-checked').removeClass('is-checked');
-			      		$( this ).addClass('is-checked');
-			    	});
-			  	});
-			  
-			});
-
-
-		</script>
-
-		<script>
-			$(function()
-			{
-    			$(".element-item").hover(function()
-    			{
-      				$(this).find(".item-desc").fadeIn();
-    			}
-                ,function()
-                {
-                        $(this).find(".item-desc").fadeOut();
-                });        
-			});
-		</script>
-
-		<script>
-			$(document).ready(function() 
-			{
-  
-				$('.element-item img').css('opacity', 1);  
-				$('.element-item').hover(function()
-				{
-  					$(this).find('img').stop().fadeTo('slow', 0.6);  
-				},  
-				function()
-				{  
-					$(this).find('img').stop().fadeTo('slow', 1);  
-				});  
-			});  
-		</script>
-
-		<script>
-			$(function() 
-			{
-  				$('a[href*=#]:not([href=#])').click(function() 
-  				{
-    				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) 
-    				{
-      					var target = $(this.hash);
-      					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      					if (target.length) 
-      					{
-        					$('html,body').animate
-        					({
-          						scrollTop: target.offset().top
-        					}, 1000);
-        					return false;
-      					}
-    				}
-  				});
-			});
-		</script>
-		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-55162400-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
+		<script type="text/javascript" src="js/script.js"></script>
+      
 	</body>
 </html>
